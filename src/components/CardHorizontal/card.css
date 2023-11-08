@@ -1,0 +1,57 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 5px black;
+  width: 100%;
+}
+
+.grid-3 {
+  width: 25%;
+}
+
+.grid-9 {
+  width: 75%;
+}
+
+.product-image {
+  padding: 10px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.card-details {
+  padding: 20px;
+}
+.product-desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.category {
+  background-color: rgb(190, 190, 190);
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.price {
+  margin: 20px 0;
+}
+
+.btn-div {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #34cfeb;
+}
+
+.btn:hover {
+  background-color: #229cb3;
+  cursor: pointer;
+  color: #fff;
+}

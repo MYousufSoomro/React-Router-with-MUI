@@ -1,0 +1,26 @@
+.display-btn {
+  text-align: end;
+  padding: 10px;
+}
+
+.list-btn,
+.active-btn {
+  margin-right: 10px;
+  font-size: 2em;
+}
+.grid-btn,
+.active-btn {
+  margin-right: 10px;
+}
+
+.active-btn {
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.grid-btn:hover,
+.active-btn:hover,
+.list-btn:hover {
+  cursor: pointer;
+}
